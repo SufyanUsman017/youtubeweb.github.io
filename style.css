@@ -11,6 +11,8 @@
   align-items: center;
   justify-content: space-between;
   background-color: white;
+  position: fixed;
+  background-color:white;
  
 }
 /* logo---------------------------------------------------------------------------- */
@@ -19,11 +21,13 @@
   padding: 5px;
   margin: 8px;
   align-items: center;
+  
 
 }
 .logo img{
   width: 150px;
   height: 70px;
+  border-radius: 100%;
 }
 .search-bar{
   display: flex;
@@ -112,6 +116,7 @@
 .bar-list{
   display: flex;
   justify-content: space-between;
+  margin-top: 3em;
   
   
 
@@ -142,6 +147,7 @@
 /* sidebar------------------------------------------------------------------------------------------- */
 .sidebar{
   display: flex;
+  
   
  
 }
